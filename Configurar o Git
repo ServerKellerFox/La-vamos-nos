@@ -1,0 +1,26 @@
+1° Criar um repositório Git
+
+Abra o Terminal do Git
+>> git init 
+
+Depois disso criar uma chave SSH se for sua primeira vez
+>> ssh-keygen -C "Chave SSH do Git"
+Após isso ele vai pedir um lugar para guarda a chave e uma senha
+
+após criar abrar ela pelo vscode 
+va no github, abra configurações >> Chaves SSH >> Criar uma nova
+cole o conteudo da chave la 
+
+2° Crie um repositório no github
+
+use o comando >> 
+it remote add origin + o link do seu repositório
+Ex:  >>> git remote add origin https://github.com/ServerKellerFox/La-vamos-nos.git
+
+3° Use o Add e o Commit
+
+você pode usar o comando >> git add . 
+assim vc adicionas todos os arquivos ao repositório da sua maquina
+após isso usa o comando >> git commit -m "Nova modificação"
+esse comando deixa o arquivo pronto para ser upado
+após isso use o comando >> git push ou clique na nuvem dovc code
